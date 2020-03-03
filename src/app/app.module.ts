@@ -7,12 +7,16 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HttpClientModule } from '@angular/common/http';
 import { HomeComponent } from './home/home.component';
 import { EditOrCreateComponent } from './edit-or-create/edit-or-create.component';
+import { CarriersComponent } from './carriers/carriers.component';
+import { SidebarComponent } from './components/sidebar/sidebar.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
-    EditOrCreateComponent
+    EditOrCreateComponent,
+    CarriersComponent,
+    SidebarComponent
   ],
   imports: [
     BrowserModule,
