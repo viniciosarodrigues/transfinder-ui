@@ -9,6 +9,9 @@ import { HomeComponent } from './home/home.component';
 import { EditOrCreateComponent } from './edit-or-create/edit-or-create.component';
 import { CarriersComponent } from './carriers/carriers.component';
 import { SidebarComponent } from './components/sidebar/sidebar.component';
+import { NavbarComponent } from './components/navbar/navbar.component';
+
+import { MatToolbarModule } from '@angular/material/toolbar'
 
 @NgModule({
   declarations: [
@@ -16,13 +19,16 @@ import { SidebarComponent } from './components/sidebar/sidebar.component';
     HomeComponent,
     EditOrCreateComponent,
     CarriersComponent,
-    SidebarComponent
+    SidebarComponent,
+    NavbarComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    HttpClientModule
+    HttpClientModule,
+
+    MatToolbarModule
   ],
   providers: [],
   bootstrap: [AppComponent]
