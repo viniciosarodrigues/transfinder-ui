@@ -1,0 +1,14 @@
+<mat-card>
+    <div class="trans-img">{{carrier.logo}}</div>
+    <div class="trans-info">
+        <div class="trans-name">{{carrier.name}}</div>
+        <div class="trans-cnpj">{{carrier.cnpj}}</div>
+    </div>
+    <div class="trans-contact">
+        <div class="trans-numbers">{{carrier.number + ' ' + carrier.whatsapp}}</div>
+        <div class="trans-email">{{carrier.email}}</div>
+    </div>
+    <div class="whatsapp">
+        <span>Fale agora: <a href="#">{{carrier.whatsapp}}</a></span>
+    </div>
+</mat-card>
