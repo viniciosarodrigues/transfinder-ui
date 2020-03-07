@@ -1,1 +1,26 @@
-<p>sidebar works!</p>
+<mat-drawer #drawer class="sidenav-content" opened mode="side">
+    <h3 class="bold">Transportadoras (FILTROS)</h3>
+    <small>Sem filtros selecionados...</small>
+    <hr />
+    <mat-form-field class="width-full">
+        <input matInput placeholder="Nome da transportadora" />
+    </mat-form-field>
+    <br />
+    <h4 class="bold">Localização (UFs)</h4>
+    <ul>
+        <li>Nenhuma Transportadora</li>
+    </ul>
+    <br />
+    <h4 class="bold">Localização (Municípios)</h4>
+    <ul>
+        <li>Nenhuma Transportadora</li>
+    </ul>
+    <br />
+    <h4 class="bold">Modal</h4>
+    <ul>
+        <li><a href="#">Rodovias</a></li>
+        <li><a href="#">Aquaviário</a></li>
+        <li><a href="#">Aéreo</a></li>
+        <li> <a href="#">Ferroviário</a></li>
+    </ul>
+</mat-drawer>
