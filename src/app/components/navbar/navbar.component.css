@@ -1,0 +1,11 @@
+.side-button {
+    position: fixed;
+    right: 20px;
+    z-index: 100;
+    background-color: #13C530;
+    color: white;
+}
+
+.nav-title {
+    padding-left: 100px;
+}
