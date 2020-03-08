@@ -1,6 +1,7 @@
 
 import { Component, OnInit, Input } from '@angular/core';
 import { CarrierDTO } from '../../models/CarrierDTO';
+import { faPhone } from '@fortawesome/free-solid-svg-icons';
 
 @Component({
   selector: 'app-card',
@@ -9,9 +10,12 @@ import { CarrierDTO } from '../../models/CarrierDTO';
 })
 export class CardComponent implements OnInit {
 
-  constructor() { }
+  @Input('carrier') carrier: CarrierDTO;
 
-  @Input() carrier: CarrierDTO;
+  faPhone = faPhone;
+
+  constructor() {
+  }
 
   ngOnInit(): void {
   }

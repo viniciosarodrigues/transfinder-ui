@@ -25,6 +25,7 @@ import { MatChipsModule } from '@angular/material/chips';
 
 import { CardComponent } from './components/card/card.component';
 import { FilterComponent } from './components/filter/filter.component';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
 
 @NgModule({
@@ -53,7 +54,8 @@ import { FilterComponent } from './components/filter/filter.component';
     MatFormFieldModule,
     MatInputModule,
     MatIconModule,
-    MatChipsModule
+    MatChipsModule,
+    FontAwesomeModule
   ],
   providers: [],
   bootstrap: [AppComponent]

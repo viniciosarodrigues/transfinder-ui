@@ -1,5 +1,5 @@
-<mat-card>
-    <div class="trans-img">{{carrier.logo}}</div>
+<mat-card class="trans-card">
+    <div class="img-content"><img class="trans-img" [src]="carrier.logo" alt=""></div>
     <div class="trans-info">
         <div class="trans-name">{{carrier.name}}</div>
         <div class="trans-cnpj">{{carrier.cnpj}}</div>
@@ -9,6 +9,6 @@
         <div class="trans-email">{{carrier.email}}</div>
     </div>
     <div class="whatsapp">
-        <span>Fale agora: <a href="#">{{carrier.whatsapp}}</a></span>
+        <span><fa-icon [icon]="faPhone"></fa-icon> Fale agora: <span class="whatsapp-number" >{{carrier.whatsapp}}</span></span>
     </div>
 </mat-card>

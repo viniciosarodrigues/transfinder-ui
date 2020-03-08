@@ -1,0 +1,49 @@
+.trans-card {
+    padding-top: 10px;
+    height: 100%;
+    padding-bottom: 10px;
+}
+
+.trans-card:hover {
+    background-color: rgb(240, 240, 240);
+}
+
+.trans-img {
+    padding: 10px;
+    width: 70px;
+    height: 70px;
+}
+
+.trans-name,
+.whatsapp-number {
+    color: rgb(0, 61, 194);
+}
+
+.whatsapp-number {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.trans-name,
+.trans-numbers,
+.whatsapp-number {
+    font-weight: 900;
+}
+
+.img-content,
+.trans-info,
+.trans-contact {
+    float: left;
+    padding: 10px;
+}
+
+.trans-name,
+.trans-cnpj,
+.trans-numbers,
+.trans-email {
+    padding: 10px;
+}
+
+.whatsapp {
+    padding: 20px;
+}

@@ -1,5 +1,10 @@
 <app-navbar></app-navbar>
 <mat-drawer-container class="principal-content" autosize>
     <app-sidebar></app-sidebar>
-    <div class="inner-content"></div>
+    <div class="inner-content">
+        <div class="row card" *ngFor="let carrier of carriers">
+            <app-card class="card" [carrier]="carrier"></app-card>
+        </div>
+        <h2 *ngIf="carriers.length === 0">Não há nenhuma transportadora cadastrada...</h2>
+    </div>
 </mat-drawer-container>
